@@ -5,3 +5,10 @@ applications.
 
 Follow along with this [tutorial on HashiCorp
 Learn](https://learn.hashicorp.com/tutorials/terraform/lambda-api-gateway?in=terraform/aws).
+
+# Hit API:
+
+```console
+curl "$(terraform output -raw base_url)/hello?
+Name=Terraform"
+```
