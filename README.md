@@ -11,4 +11,4 @@ Learn](https://learn.hashicorp.com/tutorials/terraform/lambda-api-gateway?in=ter
 ```console
 curl "$(terraform output -raw base_url)/hello?
 Name=Terraform"
-```
+``
