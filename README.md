@@ -9,6 +9,5 @@ Learn](https://learn.hashicorp.com/tutorials/terraform/lambda-api-gateway?in=ter
 # Hit API:
 
 ```console
-curl "$(terraform output -raw base_url)/hello?
-Name=Terraform"
-``
+curl "$(terraform output -raw base_url)/hello?Name=Terraform"
+```
